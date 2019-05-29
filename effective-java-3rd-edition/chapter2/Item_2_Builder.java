@@ -13,7 +13,7 @@ public final class Item_2_Builder {
 
     public static void main(final String[] args) {
         final FightEffect.Builder builder = new FightEffect.Builder();
-        final Effect effect = builder
+        final FightEffect effect = builder
                 .id(1)
                 .type(FightEffect.Type.HP_LOSS)
                 .build();
@@ -65,7 +65,7 @@ class FightEffect extends Effect {
         }
 
         @Override
-        Effect build() {
+        FightEffect build() {
             return new FightEffect(this);
         }
 
