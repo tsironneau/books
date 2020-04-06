@@ -1,13 +1,19 @@
 package chapter2;
 
 /**
- * Factory methods :
- * + They have names -> easier to use, easier to read
- * + Not required to create a new object with each call -> ie : Boolean.valueOf()
- * + Can return any subtype of the object
- * + The returned object can vary depending on given parameters
- * + The class of the returned object does not need to exists when the method is written
- * - They can be hard to find for programmers using the code
+ * <b>Factory methods</b> :
+ * <p>Why ?</p>
+ * <ul>
+ *     <li>They have names -> easier to use, easier to read </li>
+ *     <li>Not required to create a new object with each call -> ie : Boolean.valueOf()</li>
+ *     <li>Can return any subtype of the object</li>
+ *     <li>The returned object can vary depending on given parameters</li>
+ *     <li>The class of the returned object does not need to exists when the method is written</li>
+ * </ul>
+ * <p>Why not ?</p>
+ * <ul>
+ *     <li>They can be hard to find for programmers using the code </li>
+ * </ul>
  */
 public final class Item_1_FactoryMethods {
 }
