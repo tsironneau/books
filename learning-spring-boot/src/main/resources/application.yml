@@ -1,7 +1,0 @@
-server:
-  port: 9000
-
-logging:
-  level:
-    com:
-      greglturnquist: DEBUG
