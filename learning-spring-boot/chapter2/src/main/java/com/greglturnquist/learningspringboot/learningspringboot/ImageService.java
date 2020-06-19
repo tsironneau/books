@@ -29,7 +29,7 @@ public class ImageService {
     }
 
     @Bean
-    CommandLineRunner setUp() throws IOException {
+    CommandLineRunner setUp() {
         return (args) -> {
             FileSystemUtils.deleteRecursively(new File(UPLOAD_ROOT));
 
